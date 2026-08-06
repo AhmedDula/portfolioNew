@@ -2,11 +2,11 @@ import { useState } from "react";
 import SkillBar from "./components/SkillBar";
 import ProjectCard from "./components/ProjectCard";
 import { focusAreas, projects } from "./data/data";
-import AhmedAdel from "./assets/ahmed_adel.jpg";
+import AhmedAdel from "./assets/ahmed.jpg";
 
 
 export default function App() {
-  const [activeFocusId, setActiveFocusId] = useState(focusAreas[2].id); // default: Web Design
+  const [activeFocusId, setActiveFocusId] = useState(focusAreas[2].id); 
   const activeFocus = focusAreas.find((f) => f.id === activeFocusId);
 
   return (
