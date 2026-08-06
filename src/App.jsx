@@ -2,7 +2,7 @@ import { useState } from "react";
 import SkillBar from "./components/SkillBar";
 import ProjectCard from "./components/ProjectCard";
 import { focusAreas, projects } from "./data/data";
-import AhmedAdel from "./assets/Ahmed_Adel.jpg";
+import AhmedAdel from "./assets/ahmed_adel.jpg";
 
 
 export default function App() {
